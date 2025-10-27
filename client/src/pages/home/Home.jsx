@@ -3,6 +3,9 @@ import Hero from "../../components/Hero";
 import HomeIntro from "../../components/HomeIntro";
 import Homeservices from "../../components/Homeservices";
 import Homeprojects from "../../components/Homeprojects";
+import HomeWhyChoose from "../../components/HomeWhyChoose";
+import HomeMeetTheTeam from "../../components/HomeMeetTheTeam";
+import HomeContact from "../../components/HomeContact";
 
 function Home() {
   return (
@@ -18,6 +21,15 @@ function Home() {
       </div>
       <div className="homeProjects">
         <Homeprojects />
+      </div>
+      <div className="homeChoose">
+        <HomeWhyChoose />
+      </div>
+      <div className="homeTeam">
+        <HomeMeetTheTeam />
+      </div>
+      <div className="homeContact">
+        <HomeContact />
       </div>
     </div>
   );
